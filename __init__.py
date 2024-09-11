@@ -8,8 +8,8 @@ import sqlite3
 app = Flask(__name__)                                                                                                                  
                                                                                                                                        
 @app.route('/')
-def daliamazioua():
-    return render_template('daliamazioua.html') #Comm2
+def hello_world():
+    return render_template('hello.html') #Comm2
   
 if __name__ == "__main__":
   app.run(debug=True)
